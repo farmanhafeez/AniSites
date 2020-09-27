@@ -1,0 +1,82 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #202060;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b030b0;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #602080;
+}
+
+body {
+    background-color: #202040;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.card a i {
+    margin-right: 3px;
+    transition-duration: 0.3s;
+}
+
+.card a:hover i {
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.card {
+    border-radius: 4px;
+    background-color: #202060;
+    padding: 15px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+h1,
+h5,
+.name {
+    color: #b030b0;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.muted {
+    color: #ccc;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+.horizontal-line {
+    padding: 2px 0;
+    background-color: #b030b0;
+}
